@@ -32,7 +32,7 @@ O **ChatBot Programador Sênior v3.0** é um assistente de IA avançado especial
 ### **Como Usar**
 ```bash
 # 1. Execute o arquivo principal
-python main.py
+python run_chatbot.py
 
 # 2. As dependências serão verificadas automaticamente
 # 3. Configure sua chave da API do Gemini na primeira execução
