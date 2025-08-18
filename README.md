@@ -95,16 +95,17 @@ python run_chatbot.py
 ### **🤖 IA e Modelos**
 
 #### **Modelos Suportados:**
-1. **Gemini Pro** (Padrão)
+1. **Gemini 2.5 Flash** (Padrão)
+   - Requer chave de API
    - Max tokens: 8192
    - Suporte a imagens
    - Streaming nativo
 
-2. **GPT-4/3.5** (OpenAI)
+3. **GPT-4/3.5** (OpenAI)
    - Requer chave de API
    - Max tokens: 4096-8192
 
-3. **Claude-3** (Anthropic)
+4. **Claude-3** (Anthropic)
    - Requer chave de API
    - Max tokens: 4096
 
