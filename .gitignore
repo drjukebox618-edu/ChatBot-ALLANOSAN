@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+build/
+dist/
+
+# VS Code
+.vscode/
+
+# IDEs
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Logs
+logs_app/
+*.log
+
+# Testes temporários
+test_conversation_history/
+exports/
+
+# Histórico de execução
+conversation_history/
+conversation_history.json
+conversation_history.bak
+
+# Outros
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
