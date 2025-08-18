@@ -171,7 +171,7 @@ ChatBot/
 
 ### **🚀 Iniciando o ChatBot**
 ```bash
-python main.py
+python run_chatbot.py
 ```
 
 ### **📱 Interface do Usuário**
