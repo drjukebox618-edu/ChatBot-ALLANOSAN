@@ -954,13 +954,15 @@ class AdvancedChatBotGUI(QMainWindow):
         self.history_manager.add_message(self.current_conversation_id, role, content)
 
         # Formatar e adicionar ao display
+
         sender = "Você" if is_user else ai_manager.current_provider.value.title()
         icon = "👤" if is_user else "🤖"
-
+        content_html = content.replace("\n", "<br>")
+        border_color = "#2196F3" if is_user else "#4CAF50"
         formatted_message = f"""
-<div style="margin: 10px 0; padding: 10px; border-left: 3px solid {"#2196F3" if is_user else "#4CAF50"};">
+<div style="margin: 10px 0; padding: 10px; border-left: 3px solid {border_color};">
     <strong>{icon} {sender} ({message.timestamp})</strong><br>
-    {content.replace("\n", "<br>")}
+    {content_html}
 </div>
 """
 
