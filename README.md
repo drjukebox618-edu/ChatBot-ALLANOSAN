@@ -108,14 +108,6 @@ python run_chatbot.py
    - Requer chave de API
    - Max tokens: 4096
 
-4. **Llama 2/Mixtral** (Ollama Local)
-   - Não requer chave
-   - Execução local
-
-5. **Groq Llama 3**
-   - API rápida
-   - Max tokens: 8192
-
 #### **Parâmetros de IA:**
 - **Temperatura:** Criatividade (0.0-2.0)
 - **Max Tokens:** Limite de resposta
@@ -400,7 +392,7 @@ Feedback e sugestões são sempre bem-vindos para melhorar o projeto.
 
 ## 📝 Changelog
 
-### **v2.0 - Atual**
+### **v3.0 - Atual**
 - ✅ **Bug crítico corrigido:** Thread-safety da interface
 - ✅ **Projeto reorganizado:** Estrutura limpa e profissional
 - ✅ **Documentação completa:** README consolidado
@@ -418,7 +410,7 @@ Este projeto é desenvolvido para fins educacionais e de produtividade. Use resp
 
 **Desenvolvido com ❤️ para programadores por programadores**
 
-*ChatBot Programador Sênior v2.0 - Seu assistente de desenvolvimento definitivo!*
+*ChatBot Programador Sênior v3.0 - Seu assistente de desenvolvimento definitivo!*
 
 ---
 
@@ -431,9 +423,9 @@ Este projeto é desenvolvido para fins educacionais e de produtividade. Use resp
 cd ChatBot
 
 # Execute
-python main.py
+python run_chatbot.py
 
-# Configure sua API key quando solicitado
+# Configure sua API no menu de opções avançadas
 # Comece a usar!
 ```
 
