@@ -1,0 +1,18 @@
+{
+  "theme": "light",
+  "window_width": 1200,
+  "window_height": 800,
+  "window_maximized": false,
+  "floating_menu_enabled": true,
+  "history_sidebar_visible": true,
+  "settings_panel_visible": false,
+  "primary_color": "#2196F3",
+  "secondary_color": "#FFC107",
+  "background_color": "#1e1e1e",
+  "text_color": "#ffffff",
+  "font_family": "Segoe UI",
+  "font_size": 10,
+  "show_timestamps": true,
+  "auto_scroll": true,
+  "word_wrap": true
+}

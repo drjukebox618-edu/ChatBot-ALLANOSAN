@@ -1,0 +1,32 @@
+{
+  "api_key": "",
+  "model_name": "gemini-2.5-flash",
+  "temperature": 0.7,
+  "max_tokens": 8192,
+  "timeout": 30,
+  "theme": "dark",
+  "font_family": "Segoe UI",
+  "font_size": 10,
+  "window_opacity": 1.0,
+  "accent_color": "#007ACC",
+  "auto_scroll": true,
+  "message_limit": 1000,
+  "save_history": true,
+  "streaming": true,
+  "cache_enabled": true,
+  "cache_size": 1000,
+  "cache_ttl": 3600,
+  "max_workers": 4,
+  "log_level": "INFO",
+  "auto_backup": true,
+  "max_project_size": 104857600,
+  "ignored_folders": [
+    "__pycache__",
+    ".git",
+    "node_modules",
+    ".vscode"
+  ],
+  "enable_performance_monitoring": true,
+  "performance_cache_size": 500,
+  "thread_pool_size": 4
+}

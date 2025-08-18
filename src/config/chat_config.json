@@ -1,0 +1,15 @@
+{
+  "max_history_items": 1000,
+  "save_history": true,
+  "auto_save_interval": 30,
+  "auto_copy_responses": false,
+  "show_typing_indicator": true,
+  "enable_sound_notifications": false,
+  "send_message_shortcut": "Ctrl+Return",
+  "new_conversation_shortcut": "Ctrl+N",
+  "clear_chat_shortcut": "Ctrl+L",
+  "toggle_sidebar_shortcut": "F9",
+  "enable_project_analysis": true,
+  "enable_ocr": true,
+  "max_file_size_mb": 10
+}

@@ -1,0 +1,99 @@
+{
+  "current_profile": "desenvolvimento",
+  "profiles": {
+    "desenvolvimento": {
+      "name": "desenvolvimento",
+      "description": "Configurações otimizadas para desenvolvimento de código",
+      "config": {
+        "model": "gemini-2.5-flash",
+        "temperature": 0.3,
+        "max_tokens": 8192,
+        "streaming": true,
+        "context_window": "large",
+        "code_analysis": true,
+        "auto_implement": false,
+        "syntax_highlighting": true,
+        "theme": "dark"
+      },
+      "created_at": "2025-07-08T02:17:32.779662",
+      "last_used": null,
+      "use_count": 0
+    },
+    "análise": {
+      "name": "análise",
+      "description": "Configurações para análise detalhada de projetos",
+      "config": {
+        "model": "gemini-2.5-flash",
+        "temperature": 0.1,
+        "max_tokens": 8192,
+        "streaming": false,
+        "context_window": "maximum",
+        "detailed_analysis": true,
+        "include_metrics": true,
+        "generate_reports": true,
+        "syntax_highlighting": true,
+        "theme": "dark"
+      },
+      "created_at": "2025-07-08T02:17:32.779662",
+      "last_used": null,
+      "use_count": 0
+    },
+    "code_review": {
+      "name": "code_review",
+      "description": "Configurações para revisão de código",
+      "config": {
+        "model": "gemini-2.5-flash",
+        "temperature": 0.2,
+        "max_tokens": 4096,
+        "streaming": true,
+        "focus_on_issues": true,
+        "suggest_improvements": true,
+        "check_security": true,
+        "check_performance": true,
+        "syntax_highlighting": true,
+        "theme": "dark"
+      },
+      "created_at": "2025-07-08T02:17:32.779662",
+      "last_used": null,
+      "use_count": 0
+    },
+    "aprendizado": {
+      "name": "aprendizado",
+      "description": "Configurações para ensino e explicações detalhadas",
+      "config": {
+        "model": "gemini-2.5-flash",
+        "temperature": 0.5,
+        "max_tokens": 8192,
+        "streaming": true,
+        "explain_concepts": true,
+        "provide_examples": true,
+        "step_by_step": true,
+        "beginner_friendly": true,
+        "syntax_highlighting": true,
+        "theme": "light"
+      },
+      "created_at": "2025-07-08T02:17:32.779662",
+      "last_used": null,
+      "use_count": 0
+    },
+    "produção": {
+      "name": "produção",
+      "description": "Configurações conservadoras para uso em produção",
+      "config": {
+        "model": "gemini-2.5-flash",
+        "temperature": 0.1,
+        "max_tokens": 4096,
+        "streaming": false,
+        "safe_mode": true,
+        "verify_changes": true,
+        "backup_always": true,
+        "conservative_suggestions": true,
+        "syntax_highlighting": true,
+        "theme": "dark"
+      },
+      "created_at": "2025-07-08T02:17:32.779662",
+      "last_used": null,
+      "use_count": 0
+    }
+  }
+}

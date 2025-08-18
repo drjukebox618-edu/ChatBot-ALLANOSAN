@@ -1,0 +1,11 @@
+{
+  "gemini_api_key": "AIzaSyC8ucxwPbWZ4jRkodKaPiNrBu4W0SC_ztQ",
+  "openai_api_key": "",
+  "anthropic_api_key": "",
+  "default_gemini_model": "gemini-2.5-flash",
+  "default_gpt_model": "gpt-4o",
+  "default_claude_model": "claude-sonnet-4-20250514",
+  "default_temperature": 0.3,
+  "default_max_tokens": 4000,
+  "stream_responses": true
+}

@@ -1,0 +1,54 @@
+# ChatBot v3.0 - Dependências Completas
+# =====================================
+
+# Core Dependencies - OBRIGATÓRIAS
+# ---------------------------------
+
+# Interface gráfica moderna com PyQt6
+PyQt6>=6.6.0
+PyQt6-Qt6>=6.6.0
+
+# APIs de Inteligência Artificial
+google-genai>=0.3.0          # Google Gemini
+openai>=1.99.0               # OpenAI GPT
+anthropic>=0.62.0            # Anthropic Claude
+
+# Manipulação de imagens e OCR
+Pillow>=10.0.0
+pytesseract>=0.3.10
+opencv-python>=4.8.0
+
+# Certificados SSL e HTTP
+certifi>=2023.0.0
+requests>=2.31.0
+aiohttp>=3.9.0
+
+# Configuração e ambiente
+python-dotenv>=1.0.0
+
+# OCR e PDF Dependencies - OPCIONAIS mas RECOMENDADAS
+# --------------------------------------------------
+
+# PDF para imagem (para processamento de PDF)
+pdf2image>=1.16.0
+
+# Processamento de dados
+pandas>=2.1.0
+numpy>=1.24.0
+
+# Optional Dependencies - MELHORAM UX
+# ------------------------------------
+
+# Syntax highlighting para código
+Pygments>=2.17.0
+
+# Utilitários de path e sistema
+pathlib2>=2.3.7
+pathvalidate>=3.2.0
+
+# Performance JSON
+ujson>=5.8.0
+
+# Nota: PyQt6 já inclui drag & drop nativo
+# Módulos built-in do Python (não precisam ser instalados):
+# ast, mimetypes, os, json, base64, logging, asyncio, typing, dataclasses, enum, abc
