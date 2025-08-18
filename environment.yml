@@ -3,7 +3,6 @@ channels:
   - defaults
 dependencies:
   - python=3.13
-  - pyqt=6.6.0
   - pip
   - pip:
       - PyQt6>=6.6.0
