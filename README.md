@@ -32,7 +32,7 @@ O **ChatBot Programador Sênior v3.0** é um assistente de IA avançado especial
 ### **Como Usar**
 ```bash
 # 1. Execute o arquivo principal
-python main.py
+python run_chatbot.py
 
 # 2. As dependências serão verificadas automaticamente
 # 3. Configure sua chave da API do Gemini na primeira execução
@@ -95,26 +95,19 @@ python main.py
 ### **🤖 IA e Modelos**
 
 #### **Modelos Suportados:**
-1. **Gemini Pro** (Padrão)
+1. **Gemini 2.5 Flash** (Padrão)
+   - Requer chave de API
    - Max tokens: 8192
    - Suporte a imagens
    - Streaming nativo
 
-2. **GPT-4/3.5** (OpenAI)
+3. **GPT-4/3.5** (OpenAI)
    - Requer chave de API
    - Max tokens: 4096-8192
 
-3. **Claude-3** (Anthropic)
+4. **Claude-3** (Anthropic)
    - Requer chave de API
    - Max tokens: 4096
-
-4. **Llama 2/Mixtral** (Ollama Local)
-   - Não requer chave
-   - Execução local
-
-5. **Groq Llama 3**
-   - API rápida
-   - Max tokens: 8192
 
 #### **Parâmetros de IA:**
 - **Temperatura:** Criatividade (0.0-2.0)
@@ -171,7 +164,7 @@ ChatBot/
 
 ### **🚀 Iniciando o ChatBot**
 ```bash
-python main.py
+python run_chatbot.py
 ```
 
 ### **📱 Interface do Usuário**
@@ -400,7 +393,7 @@ Feedback e sugestões são sempre bem-vindos para melhorar o projeto.
 
 ## 📝 Changelog
 
-### **v2.0 - Atual**
+### **v3.0 - Atual**
 - ✅ **Bug crítico corrigido:** Thread-safety da interface
 - ✅ **Projeto reorganizado:** Estrutura limpa e profissional
 - ✅ **Documentação completa:** README consolidado
@@ -418,7 +411,7 @@ Este projeto é desenvolvido para fins educacionais e de produtividade. Use resp
 
 **Desenvolvido com ❤️ para programadores por programadores**
 
-*ChatBot Programador Sênior v2.0 - Seu assistente de desenvolvimento definitivo!*
+*ChatBot Programador Sênior v3.0 - Seu assistente de desenvolvimento definitivo!*
 
 ---
 
@@ -431,9 +424,9 @@ Este projeto é desenvolvido para fins educacionais e de produtividade. Use resp
 cd ChatBot
 
 # Execute
-python main.py
+python run_chatbot.py
 
-# Configure sua API key quando solicitado
+# Configure sua API no menu de opções avançadas
 # Comece a usar!
 ```
 
